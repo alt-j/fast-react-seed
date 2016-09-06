@@ -4,14 +4,19 @@ Seed (project stub) for [fast react server](https://github.com/alt-j/fast-react-
 
 ## Quick start
 
-1. Install
+1. Install:
 
 ```sh
 git clone --depth=1 https://github.com/alt-j/fast-react-seed.git my-project
 ```
 
-2. Run
+2. Run:
 
 ```sh
 npm run server
+```
+
+3. Open in your favorite browser:
+```
+http://localhost:3000/
 ```
