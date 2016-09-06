@@ -5,3 +5,7 @@ export class Article extends React.Component {
         return <span>{this.props.text}</span>;
     }
 }
+
+Article.propTypes = {
+    text: React.PropTypes.string.isRequired
+};

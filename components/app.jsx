@@ -31,3 +31,8 @@ export class App extends React.Component {
     }
 }
 
+App.propTypes = {
+    text: React.PropTypes.string.isRequired,
+    script: React.PropTypes.string,
+    config: React.PropTypes.string
+};
